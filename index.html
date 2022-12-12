@@ -77,6 +77,7 @@
             <div class="container">
                 <!-- one heading, five div's, each with an image, h3, para, and button, ON A 6 COLUMN GRID -->
                 <h2>Our Services</h2>
+                <div class="grid-container">
                     <div class="digital">
                         <img src="images/digital.jpg" alt="digital" class="digital">
                             <h3>Digital Transformation</h3>
@@ -122,6 +123,7 @@
                                         Print Plans ►
                                     </button>
                     </div>
+                </div>
             </div> <!-- end container -->
         </section> <!-- end section-services -->
 
@@ -141,6 +143,7 @@
             <div class="container">
                 <!-- a heading and four div's with an image or some text elements -->
                 <h2>Our team</h2>
+                <div class="our-team-flex">
                         <img src="images/john.jpg" alt="john doe" class="john-doe-img">
                     <div class="john-doe">
                         <h3>John Doe</h3>
@@ -158,13 +161,15 @@
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni molestias sequi enim, illo temporibus cupiditate similique nesciunt aliquid consequuntur, 
                                 quos necessitatibus perferendis saepe fugiat voluptatem officiis debitis quae? Nihil, accusamus.</p>
                     </div>
+                </div>
             </div> <!-- end container -->
         </section> <!-- end section-team -->
 
         <section class="section-contact">
             <div class="container">
+                <div class="contact-us-flex">
                 <!-- a heading and three div's with a form, a map embed, and a table for the hours of operation -->
-                <h2>Contact Us</h2>
+                <h2 class="contact-us-heading">Contact Us</h2>
                     <div class="form">
                         <h3>Send us a message</h3>
                             <form action="/action_page.php" class="form">
@@ -174,13 +179,14 @@
                                 <input type="text" id="email" name="email"><br>
 
                                 <label for="message">Message</label><br>
-                                <input type="text" id="message" name="message"><br>
+                                <input type="text" id="message" name="message" class="message-box"><br>
 
-                                <input type="submit" value="Send">
+                                <input type="submit" value="Send" class="send-button">
                             </form>
                     </div>
 
                     <div class="hours">
+                        <h3>Hours of operation</h3>
                         <table>
                             <tr>
                                 <th>Days</th>
@@ -201,7 +207,7 @@
                         <h3>Location</h3>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9445518095567!2d-75.7571308492965!3d45.34993154898001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669137438967!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-
+                </div>
             </div> <!-- end container -->
         </section> <!-- end section-contact -->
 
